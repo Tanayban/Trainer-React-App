@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'react-custom-alert/dist/index.css'; // import css file from root.
+import { ToastContainer, toast } from 'react-custom-alert';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <ToastContainer/>
   </React.StrictMode>
 );
 

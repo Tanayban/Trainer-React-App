@@ -1,0 +1,56 @@
+.hrdetail {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hrdetail header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#applications {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.application {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    gap: 1rem;
+}
+
+.application h2 {
+    margin-top: 0;
+}
+
+.application p {
+    margin: 0.5rem 0;
+}
+
+.photo {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.details {
+    flex: 1;
+}

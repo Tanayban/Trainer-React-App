@@ -1,0 +1,32 @@
+.contact-container {
+    background-color: #f8f9fa; /* Light background color */
+    width: 100%;
+    min-height: 80vh; /* Ensure the container takes up the entire viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .contact-content {
+    max-width: 500px; /* Limit the width of the content */
+    width: 90%; /* Set a percentage width for responsiveness */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  
+  .contact-content h4 {
+    color: #333; /* Dark text color for the heading */
+    margin-top: 0; /* Remove top margin of the heading */
+  }
+  
+  .contact-content p {
+    margin-bottom: 10px;
+    margin-top: 0; /* Remove top margin of the paragraphs */
+  }
+  
+  

@@ -1,0 +1,20 @@
+.conv {
+  .header {
+    color: cyan;
+  }
+  .container {
+    width: 100%;
+    border: 1px solid cyan;
+    display: flex;
+    /* padding: 0; */
+    position: absolute;
+
+    form {
+      border: 1px dashed purple;
+      background-color: rgba(255, 255, 255, 0.61);
+      /* width: 200%; */
+      height: 75%;
+      display: flex;
+    }
+  }
+}
